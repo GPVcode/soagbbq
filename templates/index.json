@@ -1,0 +1,115 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Placeholder.webp",
+            "heading": "<strong>CATERING AVAILABLE NOW!<\/strong>",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Book Event",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_9rCqWz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cbBbN6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover Our Journey",
+            "heading_size": "h0"
+          }
+        },
+        "text_LK7cmq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Founded by a U.S.M.C veteran, our barbecue is a tribute to resilience, family, and community. Every bite is a story—of tradition, passion, and a mission that goes beyond the plate. Join us on a journey that delights and unites.<\/strong><\/p>"
+          }
+        },
+        "button_i9aMgx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Story",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cbBbN6",
+        "text_LK7cmq",
+        "button_i9aMgx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 40
+      }
+    },
+    "featured-collection-0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich_text_9rCqWz",
+    "featured-collection-0"
+  ]
+}

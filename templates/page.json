@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "image_with_text_PD7Tbn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DJKEYz": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_9bhQxD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Founded by a U.S.M.C veteran, our barbecue is a tribute to resilience, family, and community. Every bite is a story—of tradition, passion, and a mission that goes beyond the plate. Join us on a journey that delights and unites.<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EFLpjE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Products",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DJKEYz",
+        "text_9bhQxD",
+        "button_EFLpjE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/20231210_034326546_iOS.heic",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_e8wCyb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Yxp8Fg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_G44tLH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Son of a Gun BBQ, a sanctuary where passion for authentic barbecue meets a deep-rooted commitment to community and service. Founded by Amadeo Rodriguez, a U.S.M.C combat veteran affectionately known as AROD, our journey is one of resilience, love, and the uniting power of food. Born in Managua, Nicaragua, and having served in Iraq during Operation Iraqi Freedom, AROD’s experiences have shaped a life where family, inclusivity, and the meaningful connections that come from sharing a meal are cherished above all.<\/p><p>Son of a Gun BBQ is more than just a business; it's a reflection of AROD's dedication to bringing people together, irrespective of their walk of life. Inspired by his oldest daughter's battle with cancer and his youngest child's autism, AROD's vision for S.O.A.G. BBQ is to create a space where every moment is cherished, and every meal is a celebration of community.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yxp8Fg",
+        "text_G44tLH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_mw3p77": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6wWQBH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "h1"
+          }
+        },
+        "text_rcVrKF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>At Son of a Gun BBQ, we're on a mission to do more than just serve exceptional barbecue. We are here to make a difference—supporting disabled veterans, engaging with our local communities, and providing meaningful employment opportunities for those who've served our country. Our commitment to authentic, mouthwatering barbecue is matched only by our dedication to our fellow veterans and the community at large.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6wWQBH",
+        "text_rcVrKF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_tJjNmL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cQtTKk": {
+          "type": "heading",
+          "settings": {
+            "heading": "What We Offer",
+            "heading_size": "h1"
+          }
+        },
+        "text_EHaWmc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>S.O.A.G. BBQ specializes in catering services that leave a lasting impression. From private events for non-profit organizations to memorable gatherings in community parks and veteran events, our barbecue is about creating experiences that linger long after the last bite. Our services span Los Angeles, Orange, San Bernardino, and San Diego Counties, bringing the soul of barbecue to Southern California's diverse and vibrant communities.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cQtTKk",
+        "text_EHaWmc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_EHx9mG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DMV9Yi": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Tradition and Innovation:<\/strong> ",
+            "text": "<p>We honor the art of barbecue with traditional smoking techniques and the finest pellet smokers, complemented by a selection of unique sauces and rubs that promise an unforgettable flavor journey.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gFQf4e": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Quality at the Heart:<\/strong>",
+            "text": "<p>Our promise is to deliver excellence, from the premium cuts of meat to the fresh, quality ingredients that accompany our dishes. Every meal is a testament to our unwavering commitment to quality.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Jy8KHG": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Community First:<\/strong>",
+            "text": "<p>S.O.A.G. BBQ is built on the values of Honor, Courage, and Commitment. We actively support local initiatives and charities, especially those benefiting veterans and first responders, embodying a spirit of service and giving back.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RH3Qig": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Veteran-Owned:<\/strong>",
+            "text": "<p>As a disabled veteran-owned business, we're proud to employ and support fellow veterans, creating a workplace that understands and honors their sacrifices.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DMV9Yi",
+        "column_gFQf4e",
+        "column_Jy8KHG",
+        "column_RH3Qig"
+      ],
+      "settings": {
+        "title": "Why Choose Us?",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tTYAcD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N9y3hU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Join Our Journey<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_zpbzbf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choosing Son of a Gun BBQ means more than just enjoying delicious food; it's about being part of a story that values every individual and every moment. It's about supporting a cause that goes beyond the plate, fostering a sense of unity and community spirit.<\/p><p>Dive into the heart of barbecue with Son of a Gun BBQ. Experience the passion, authenticity, and difference with every bite.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_N9y3hU",
+        "text_zpbzbf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_Q49emV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iQGUaj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_TzPmFt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>To explore our catering services or to learn more about our mission, reach out to us. Let’s create memorable experiences together.<\/strong><\/p>"
+          }
+        },
+        "button_DPiibf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iQGUaj",
+        "text_TzPmFt",
+        "button_DPiibf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "image_with_text_PD7Tbn",
+    "rich_text_e8wCyb",
+    "rich_text_mw3p77",
+    "rich_text_tJjNmL",
+    "multicolumn_EHx9mG",
+    "rich_text_tTYAcD",
+    "rich_text_Q49emV",
+    "main"
+  ]
+}

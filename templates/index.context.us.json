@@ -1,0 +1,21 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "slideshow": {
+      "settings": {
+      },
+      "blocks": {
+        "slide-0": {
+          "settings": {
+            "color_scheme": "scheme-2",
+            "show_text_box": false,
+            "heading_size": "h0"
+          }
+        }
+      }
+    }
+  }
+}
