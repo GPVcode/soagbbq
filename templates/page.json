@@ -43,7 +43,7 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 36
       }
     },
@@ -137,65 +137,63 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_EHx9mG": {
-      "type": "multicolumn",
+    "collapsible_content_78cF7H": {
+      "type": "collapsible-content",
       "blocks": {
-        "column_DMV9Yi": {
-          "type": "column",
+        "collapsible_row_Keyjn8": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "<strong>Tradition and Innovation:<\/strong> ",
-            "text": "<p>We honor the art of barbecue with traditional smoking techniques and the finest pellet smokers, complemented by a selection of unique sauces and rubs that promise an unforgettable flavor journey.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Tradition and Innovation",
+            "icon": "check_mark",
+            "row_content": "<p><strong>We honor the art of barbecue with traditional smoking techniques and the finest pellet smokers, complemented by a selection of unique sauces and rubs that promise an unforgettable flavor journey.<\/strong><\/p>",
+            "page": ""
           }
         },
-        "column_gFQf4e": {
-          "type": "column",
+        "collapsible_row_nUPkGb": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "<strong>Quality at the Heart:<\/strong>",
-            "text": "<p>Our promise is to deliver excellence, from the premium cuts of meat to the fresh, quality ingredients that accompany our dishes. Every meal is a testament to our unwavering commitment to quality.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Quality at the Heart",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Our promise is to deliver excellence, from the premium cuts of meat to the fresh, quality ingredients that accompany our dishes. Every meal is a testament to our unwavering commitment to quality.<\/strong><\/p>",
+            "page": ""
           }
         },
-        "column_Jy8KHG": {
-          "type": "column",
+        "collapsible_row_jC4443": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "<strong>Community First:<\/strong>",
-            "text": "<p>S.O.A.G. BBQ is built on the values of Honor, Courage, and Commitment. We actively support local initiatives and charities, especially those benefiting veterans and first responders, embodying a spirit of service and giving back.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Community First",
+            "icon": "check_mark",
+            "row_content": "<p><strong>S.O.A.G. BBQ is built on the values of Honor, Courage, and Commitment. We actively support local initiatives and charities, especially those benefiting veterans and first responders, embodying a spirit of service and giving back.<\/strong><\/p>",
+            "page": ""
           }
         },
-        "column_RH3Qig": {
-          "type": "column",
+        "collapsible_row_m9fqmp": {
+          "type": "collapsible_row",
           "settings": {
-            "title": "<strong>Veteran-Owned:<\/strong>",
-            "text": "<p>As a disabled veteran-owned business, we're proud to employ and support fellow veterans, creating a workplace that understands and honors their sacrifices.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Veteran-Owned",
+            "icon": "check_mark",
+            "row_content": "<p><strong>As a disabled veteran-owned business, we're proud to employ and support fellow veterans, creating a workplace that understands and honors their sacrifices.<\/strong><\/p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "column_DMV9Yi",
-        "column_gFQf4e",
-        "column_Jy8KHG",
-        "column_RH3Qig"
+        "collapsible_row_Keyjn8",
+        "collapsible_row_nUPkGb",
+        "collapsible_row_jC4443",
+        "collapsible_row_m9fqmp"
       ],
       "settings": {
-        "title": "Why Choose Us?",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "caption": "",
+        "heading": "Why Choose Us?",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -269,7 +267,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 100
       }
     },
     "main": {
@@ -286,7 +284,7 @@
     "rich_text_e8wCyb",
     "rich_text_mw3p77",
     "rich_text_tJjNmL",
-    "multicolumn_EHx9mG",
+    "collapsible_content_78cF7H",
     "rich_text_tTYAcD",
     "rich_text_Q49emV",
     "main"
