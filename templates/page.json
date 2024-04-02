@@ -20,7 +20,7 @@
         "button_EFLpjE": {
           "type": "button",
           "settings": {
-            "button_label": "Our Products",
+            "button_label": "Browse",
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
