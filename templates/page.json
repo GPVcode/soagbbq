@@ -213,43 +213,19 @@
           "settings": {
             "text": "<p>Choosing Son of a Gun BBQ means more than just enjoying delicious food; it's about being part of a story that values every individual and every moment. It's about supporting a cause that goes beyond the plate, fostering a sense of unity and community spirit.<\/p><p>Dive into the heart of barbecue with Son of a Gun BBQ. Experience the passion, authenticity, and difference with every bite.<\/p>"
           }
-        }
-      },
-      "block_order": [
-        "heading_N9y3hU",
-        "text_zpbzbf"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_Q49emV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_iQGUaj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact Us",
-            "heading_size": "h1"
-          }
         },
-        "text_TzPmFt": {
+        "text_peVXdd": {
           "type": "text",
           "settings": {
             "text": "<p><strong>To explore our catering services or to learn more about our mission, reach out to us. Let’s create memorable experiences together.<\/strong><\/p>"
           }
         },
-        "button_DPiibf": {
+        "button_aBmQdW": {
           "type": "button",
           "settings": {
-            "button_label": "Contact Us",
+            "button_label": "Let's Talk!",
             "button_link": "shopify:\/\/pages\/contact",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -257,9 +233,10 @@
         }
       },
       "block_order": [
-        "heading_iQGUaj",
-        "text_TzPmFt",
-        "button_DPiibf"
+        "heading_N9y3hU",
+        "text_zpbzbf",
+        "text_peVXdd",
+        "button_aBmQdW"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -286,7 +263,6 @@
     "rich_text_tJjNmL",
     "collapsible_content_78cF7H",
     "rich_text_tTYAcD",
-    "rich_text_Q49emV",
     "main"
   ]
 }

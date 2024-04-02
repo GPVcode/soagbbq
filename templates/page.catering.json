@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "catering-menu": {
+      "type": "catering-menu",
+      "settings": {
+      }
+    },
+    "rich_text_cjVxQF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RhQX3Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Book Son of a Gun BBQ Today!",
+            "heading_size": "h1"
+          }
+        },
+        "text_aDh9mw": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>626-764-1101<br\/>info@SonOfAGunBBQ.com<\/h2>"
+          }
+        },
+        "text_QGVbp7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Or<\/p>"
+          }
+        },
+        "text_rzFjHF": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Submit your contact below and have a representative reach out as soon as possible!<\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RhQX3Q",
+        "text_aDh9mw",
+        "text_QGVbp7",
+        "text_rzFjHF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "contact_form_XV3iCx": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "catering-menu",
+    "rich_text_cjVxQF",
+    "contact_form_XV3iCx"
+  ]
+}

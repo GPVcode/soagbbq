@@ -1116,6 +1116,77 @@ summary::-webkit-details-marker {
   }
 }
 
+/* Catering Menu Styles */
+.catering-menu {
+  padding-top: 50px;
+}
+
+.catering-menu .container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.catering-menu h1, .catering-menu h2 {
+  text-align: center;
+}
+
+.catering-menu p {
+  text-align: center;
+}
+
+.catering-option {
+  background: #333333;
+  border: 1px solid #e9dfcd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+
+.catering-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.plate-detail, .price {
+  font-family: 'Roboto', sans-serif;
+}
+
+.catering-option ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.catering-option ul li {
+  margin-bottom: 10px;
+}
+
+.menu-option-header {
+  padding-top: 4rem;
+}
+.dinner-rolls {
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 700px) {
+  .catering-menu-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    padding-top: 5px;
+    margin-right: 0;
+  }
+  .plate-detail {
+    margin-left: 0;
+  }
+}
+
 /* component-media */
 .media {
   display: block;
