@@ -1,7 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/SOG_BLK_WHT_Logo.png",
-    "logo_width": 90,
+    "logo_width": 50,
     "favicon": "shopify:\/\/shop_images\/SOG_PNG_WITH_BLACK_SHADOW_1.png",
     "type_header_font": "roboto_condensed_n7",
     "heading_scale": 110,
@@ -136,6 +136,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

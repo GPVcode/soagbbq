@@ -1116,6 +1116,8 @@ summary::-webkit-details-marker {
   }
 }
 
+
+
 /* Catering Menu Styles */
 .catering-menu {
   padding-top: 50px;
@@ -1136,7 +1138,7 @@ summary::-webkit-details-marker {
 }
 
 .catering-option {
-  background: #333333;
+  /* background: url(https://www.transparenttextures.com/patterns/asfalt-dark.png); */
   border: 1px solid #e9dfcd;
   border-radius: 8px;
   padding: 20px;
