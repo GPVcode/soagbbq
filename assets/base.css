@@ -1174,7 +1174,9 @@ summary::-webkit-details-marker {
   padding-bottom: 4rem;
 }
 
-/* Catering responsive */
+/* Catering responsive
+  I have transferred the site to client.
+*/
 @media (max-width: 700px) {
   .catering-menu-item {
     flex-direction: column;
