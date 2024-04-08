@@ -1176,6 +1176,7 @@ summary::-webkit-details-marker {
 
 /* Catering responsive
   I have transferred the site to client.
+  Update homepage and implement custom email
 */
 @media (max-width: 700px) {
   .catering-menu-item {
