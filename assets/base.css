@@ -1174,7 +1174,6 @@ summary::-webkit-details-marker {
   padding-bottom: 4rem;
 }
 
-/* Catering responsive */
 @media (max-width: 700px) {
   .catering-menu-item {
     flex-direction: column;
