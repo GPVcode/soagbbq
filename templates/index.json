@@ -99,6 +99,53 @@
         "padding_bottom": 100
       }
     },
+    "image_with_text_MG3bHg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UTYxdn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Champion BBQ<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_kpnYxg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Son of a Gun BBQ is committed to delivering unparalleled barbecue excellence. Demonstrating our prowess, we clinched first place in the pork category at the prestigious Service With Valor BBQ competition held in Ontario, CA. Our dedication to quality and competition continues to set us apart in the culinary world.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_9Jrhjk": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UTYxdn",
+        "text_kpnYxg",
+        "button_9Jrhjk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "slideshow_qMh97j": {
       "type": "slideshow",
       "blocks": {
@@ -107,7 +154,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace_1.webp",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -115,13 +162,14 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
         "slide_4CEdYY": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace.webp",
             "heading": "",
@@ -140,6 +188,7 @@
         },
         "slide_h97dqW": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace_2.webp",
             "heading": "",
@@ -172,30 +221,13 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "171303834767ad6b5f": {
-      "type": "apps",
-      "blocks": {
-        "powr_photo_gallery_app_block_DDNUCf": {
-          "type": "shopify:\/\/apps\/powr-photo-gallery\/blocks\/app-block\/f518ea8b-84ca-4e35-ad08-915944558a92",
-          "settings": {
-            "app_id": "6db82eb4_1713037647"
-          }
-        }
-      },
-      "block_order": [
-        "powr_photo_gallery_app_block_DDNUCf"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "slideshow",
     "17123687496ca5d539",
     "rich_text_9rCqWz",
-    "slideshow_qMh97j",
-    "171303834767ad6b5f"
+    "image_with_text_MG3bHg",
+    "slideshow_qMh97j"
   ]
 }
