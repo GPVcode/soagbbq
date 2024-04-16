@@ -1,0 +1,27 @@
+<div class="image-grid">
+  {% for block in section.blocks %}
+    <div class="grid-item">
+      <img src="{{ block.settings.image | img_url: 'large' }}" alt="{{ block.settings.image.alt | escape }}">
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Image Grid",
+  "max_blocks": 10,
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
