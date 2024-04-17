@@ -1,27 +1,38 @@
-<div class="image-grid">
+<div class="image-slider">
+  <div class="slides">
   {% for block in section.blocks %}
-    <div class="grid-item">
-      <img src="{{ block.settings.image | img_url: 'large' }}" alt="{{ block.settings.image.alt | escape }}">
-    </div>
+    <div class="slide">
+      <img src="{{ block.settings.image | img_url: '1024x1024', scale: 2, crop: 'center'}}" alt="{{ block.settings.image.alt | escape }}">
+      </div>
   {% endfor %}
+  </div>
 </div>
 
 {% schema %}
-{
-  "name": "Image Grid",
-  "max_blocks": 10,
-  "blocks": [
-    {
-      "type": "image",
-      "name": "Image Block",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
-      ]
-    }
-  ]
-}
-{% endschema %}
+  {
+    "name": "Image Grid",
+    "class": "custom-image-grid",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image Block",
+        "settings": [
+          {
+            "id": "image",
+            "type": "image_picker",
+            "label": "Upload an Image"
+          }
+        ]
+      }
+    ],
+    "max_blocks": 10,
+    "presets": [
+      {
+        "name": "Image Grid",
+        "category": "Custom"
+      }
+    ]
+  }
+  {% endschema %}
+  
