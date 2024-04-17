@@ -105,7 +105,7 @@
         "heading_UTYxdn": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Champion BBQ<\/strong>",
+            "heading": "<strong>Award Winning BBQ<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -113,7 +113,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Son of a Gun BBQ is committed to delivering unparalleled barbecue excellence. Demonstrating our prowess, we clinched first place in the pork category at the prestigious Service With Valor BBQ competition held in Ontario, CA. Our dedication to quality and competition continues to set us apart in the culinary world.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button_9Jrhjk": {
@@ -146,80 +146,42 @@
         "padding_bottom": 36
       }
     },
-    "slideshow_qMh97j": {
-      "type": "slideshow",
+    "collage_VJAgxe": {
+      "type": "collage",
       "blocks": {
-        "slide_n8AiEG": {
-          "type": "slide",
+        "image_gn7tKa": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace_1.webp",
-            "heading": "",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/IMG_0632.jpg"
           }
         },
-        "slide_4CEdYY": {
-          "type": "slide",
-          "disabled": true,
+        "image_UCgLnT": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/IMG_0530.jpg"
           }
         },
-        "slide_h97dqW": {
-          "type": "slide",
-          "disabled": true,
+        "image_NKkKgh": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonofagunbbq_firstplace_2.webp",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/IMG_0556.jpg"
           }
         }
       },
       "block_order": [
-        "slide_n8AiEG",
-        "slide_4CEdYY",
-        "slide_h97dqW"
+        "image_gn7tKa",
+        "image_UCgLnT",
+        "image_NKkKgh"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -228,6 +190,6 @@
     "17123687496ca5d539",
     "rich_text_9rCqWz",
     "image_with_text_MG3bHg",
-    "slideshow_qMh97j"
+    "collage_VJAgxe"
   ]
 }
