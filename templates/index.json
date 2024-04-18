@@ -183,6 +183,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_grid_N34EPL": {
+      "type": "image-grid",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -190,6 +195,7 @@
     "17123687496ca5d539",
     "rich_text_9rCqWz",
     "image_with_text_MG3bHg",
-    "collage_VJAgxe"
+    "collage_VJAgxe",
+    "image_grid_N34EPL"
   ]
 }
