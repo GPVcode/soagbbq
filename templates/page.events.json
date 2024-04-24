@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main-content": {
+      "type": "rich-text",
+      "settings": {
+      }
+    },
+    "google-calendar": {
+      "type": "events-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-content",
+    "google-calendar"
+  ]
+}
