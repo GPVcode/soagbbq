@@ -1,20 +1,8 @@
 <!-- events-page.liquid -->
-<div id="events-list"></div>
+<div id="events-container">HELOO</div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://www.googleapis.com/calendar/v3/calendars/{calendarId}/events?key=YOUR_API_KEY')
-    .then(response => response.json())
-    .then(data => {
-        const eventsList = document.getElementById('events-list');
-        data.items.forEach(event => {
-            const eventItem = document.createElement('div');
-            eventItem.innerHTML = `<h4>${event.summary}</h4><p>${event.start.dateTime}</p>`;
-            eventsList.appendChild(eventItem);
-        });
-    })
-    .catch(error => console.error('Error loading Google Calendar events:', error));
-  });
+  
 </script>
 
 {% schema %}
