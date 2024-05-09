@@ -1,9 +1,63 @@
 <!-- events-page.liquid -->
-<div id="events-container">HELOO</div>
+<div id="events-container"></div>
 
-<script>
+<script src="{{ 'calendar-integration.js' | asset_url }}" defer></script>
+
+<style>
+    #events-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+    }
+
+    .event-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        max-width: 800px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    .event-date {
+        align-content: center;
+        width: 30%;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .event-details {
+        width: 70%;
+        text-align: left;
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
+    }
+
+    .error-message {
+        color: red;
+        font-weight: bold;
+    }
+
+    .event-link{
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
   
-</script>
+    .event-link:hover {
+        text-decoration: underline;
+    }
+
+</style>
 
 {% schema %}
 {

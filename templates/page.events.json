@@ -13,9 +13,9 @@
         "caption_4ENJNm": {
           "type": "caption",
           "settings": {
-            "caption": "Meet us at our booth to try our award winning BBQ at the events below.",
-            "text_style": "subtitle",
-            "text_size": "small"
+            "caption": "Find us at the upcoming events below to try our award winning BBQ.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         }
       },
@@ -34,6 +34,9 @@
     },
     "google-calendar": {
       "type": "events-page",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     }
