@@ -25,11 +25,25 @@
           "settings": {
           }
         },
+        "text_Hg6b7f": {
+          "type": "text",
+          "settings": {
+            "text": "Note: Purchases cannot be made directly on our site. Clicking 'Buy Now' will redirect you to our affiliate partner's website to complete your purchase.",
+            "text_style": "uppercase"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
+          }
+        },
+        "custom_liquid_zRNTz7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"https:\/\/c13674-2.myshopify.com?ref=amadeo_rodriguez\" class=\"button custom_url\">Buy Now <\/a>"
           }
         },
         "description": {
@@ -49,7 +63,9 @@
         "title",
         "rating",
         "price",
+        "text_Hg6b7f",
         "variant_picker",
+        "custom_liquid_zRNTz7",
         "description",
         "share"
       ],
