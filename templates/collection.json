@@ -2,10 +2,34 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
+      }
+    },
+    "rich_text_KnVpDA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N6UbAe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premium Live Fire Grills Collection",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_N6UbAe"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "product-grid": {
@@ -14,16 +38,16 @@
         "products_per_page": 24,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 0,
         "padding_bottom": 100
       }
@@ -31,6 +55,7 @@
   },
   "order": [
     "banner",
+    "rich_text_KnVpDA",
     "product-grid"
   ]
 }
