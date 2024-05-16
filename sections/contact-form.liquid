@@ -61,8 +61,9 @@
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             placeholder="{{ 'templates.contact.form.name' | t }}"
+            required="required"
           >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}<span aria-hidden="true">*</span></label>
         </div>
         <div class="field field--with-error">
           <input
@@ -80,6 +81,7 @@
               aria-describedby="ContactForm-email-error"
             {% endif %}
             placeholder="{{ 'templates.contact.form.email' | t }}"
+            required="required"
           >
           <label class="field__label" for="ContactForm-email">
             {{- 'templates.contact.form.email' | t }}
@@ -94,7 +96,7 @@
                 {{ form.errors.messages.email -}}
               </span>
             </small>
-          {%- endif -%}
+          {%- endif -%}          
         </div>
       </div>
       <div class="field">
@@ -107,8 +109,9 @@
           pattern="[0-9\-]*"
           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
           placeholder="{{ 'templates.contact.form.phone' | t }}"
+          required="required"
         >
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}<span aria-hidden="true">*</span></label>
       </div>
       <div class="field">
         <textarea

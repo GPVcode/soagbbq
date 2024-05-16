@@ -43,7 +43,7 @@
         "custom_liquid_zRNTz7": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/c13674-2.myshopify.com?ref=amadeo_rodriguez\" class=\"button custom_url\">Buy Now <\/a>"
+            "custom_liquid": "{% if product.metafields.custom.affiliate %}\n<a href=\"{{ product.metafields.custom.affiliate }}\" class=\"button custom_url\">Buy Now<\/a>\n{% endif %}"
           }
         },
         "description": {
